@@ -238,7 +238,7 @@ async def init():
                     return await message.reply_text(
                         "Failed to fetch user. You might've restarted bot or some error happened. Please check logs"
                     )
-try:
+                try:
                     return await app.copy_message(
                         replied_user_id,
                         message.chat.id,
@@ -271,7 +271,7 @@ try:
                         pass
 
     @app.on_message(
-        filters.group & ~filters.edited & filters.user(SUDO_USERS),
+        filters.group & filters.user(SUDO_USERS),
         group=grouplist,
     )
     async def incoming_groups(_, message):
