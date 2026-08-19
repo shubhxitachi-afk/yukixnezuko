@@ -25,7 +25,7 @@ BOT_TOKEN = "8954458459:AAHRTJucDx31wUKbCQhF0ICzJ4pUtN5_VuE"
 # SUDO USERS
 SUDO_USER = [8888788314]
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = "-1004405902404"
+LOG_GROUP_ID = -1004405902404
 
 # Message to display when someone starts your bot
 PRIVATE_START_MESSAGE = getenv(
