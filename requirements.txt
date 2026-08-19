@@ -1,8 +1,3 @@
 pyrogram==2.0.106
 tgcrypto==1.2.5
-motor
-pymongo[srv]
-requests
-python-dotenv
-aiohttp
-aiofiles
+google-genai
