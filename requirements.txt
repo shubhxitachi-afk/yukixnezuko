@@ -1,7 +1,7 @@
 pyrogram==1.4.16
 tgcrypto==1.2.5
-motor==3.0.0
-pymongo[srv]==3.12.3
+motor
+pymongo[srv]
 requests
 python-dotenv
 aiohttp
