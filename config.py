@@ -25,7 +25,7 @@ BOT_TOKEN = "8954458459:AAHRTJucDx31wUKbCQhF0ICzJ4pUtN5_VuE"
 # SUDO USERS
 SUDO_USER = [8888788314]
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("-1004405902404"))
+LOG_GROUP_ID = "-1004405902404"
 
 # Message to display when someone starts your bot
 PRIVATE_START_MESSAGE = getenv(
@@ -34,4 +34,4 @@ PRIVATE_START_MESSAGE = getenv(
 )
 
 # Database to save your chats and stats... Get MongoDB:-  https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb#4.-youll-see-a-deploy-cloud-database-option.-please-select-shared-hosting-under-free-plan-here
-MONGO_DB_URI = getenv("mongodb+srv://shubhxitachi_db_user:3r1jKiHGmAyd93wy@nezukonbot.wkzudm6.mongodb.net/?retryWrites=true&w=majority", None)
+MONGO_DB_URI = "mongodb+srv://shubhxitachi_db_user:3r1jKiHGmAyd93wy@nezukonbot.wkzudm6.mongodb.net/?retryWrites=true&w=majority"
