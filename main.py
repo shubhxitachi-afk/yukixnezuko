@@ -244,7 +244,7 @@ async def init():
                         message.chat.id,
                         message.message_id,
                     )
-                except Exception as e:
+               filters.group & filters.user(SUDO_USERS),
                     print(e)
                     return await message.reply_text(
                         "Failed to send the message, User might have blocked the bot or something wrong happened. Please check logs"
