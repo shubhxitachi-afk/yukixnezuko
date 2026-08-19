@@ -238,13 +238,13 @@ async def init():
                     return await message.reply_text(
                         "Failed to fetch user. You might've restarted bot or some error happened. Please check logs"
                     )
-                try:
+try:
                     return await app.copy_message(
                         replied_user_id,
                         message.chat.id,
                         message.message_id,
                     )
-               filters.group & filters.user(SUDO_USERS),
+                except Exception as e:
                     print(e)
                     return await message.reply_text(
                         "Failed to send the message, User might have blocked the bot or something wrong happened. Please check logs"
